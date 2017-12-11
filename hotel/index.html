@@ -1,0 +1,409 @@
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script type="text/javascript">
+startList = function() {
+ if (document.all&&document.getElementById) {
+  navRoot = document.getElementById("nav");
+  for (i=0; i<navRoot.childNodes.length; i++) {
+   node = navRoot.childNodes[i];
+   if (node.nodeName=="LI") {
+    node.onmouseover=function() {
+     this.className+=" over";			
+    }
+    node.onmouseout=function() {
+     this.className=this.className.replace(" over", "");
+    }
+   }
+  }
+ }
+}
+window.onload=startList;
+</script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>嘻游旅行网-酒店</title>
+<meta name="keywords" content="Professional Template, HTML, CSS, free website template" />
+<meta name="description" content="Professional Template, HTML, CSS, free website template provided by www.865171.cn" />
+<link href="style.css" rel="stylesheet" type="text/css"/>
+	<link rel="stylesheet" href="swiper.css">
+    <link href="style1.css" rel="stylesheet" type="text/css"/>
+	 <style>
+	 <style> 
+    body {
+        background: #FFF;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color:#000;
+        margin: 0;
+        padding: 0;
+    }
+    .swiper-container {
+        width: 800px;
+        height:400px;
+        margin: 20px auto;
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+    .zt {
+	font-family: "Bauhaus 93";
+}
+     .xieti {
+	font-style: italic;
+}
+     .da {
+	font-size: 14px;
+}
+     </style>
+
+</head>
+<body>
+<div id="templatemo_header_wrapper">
+  <div id="templatemo_header">
+    <div id="site_title_section">
+      <div id="site_title">嘻游旅行网</div>
+      <div id="salogon">XiYou Travel Network</div>
+      <div class="cleaner">&nbsp;</div>
+    </div>
+    <div id="search_section">
+      <form action="#" method="get">
+        <input type="text" name="q" size="10" id="searchfield" title="searchfield" />
+        <input type="submit" name="Search" value="" alt="Search" id="searchbutton" title="Search" />
+      </form>
+    </div>
+  </div>
+  <!-- end of header -->
+</div>
+<!-- end of header wrapper -->
+</div>
+<!-- end of banner wrapper -->
+<div id="templatemo_menu_wrapper">
+  <div id="templatemo_menu">
+    <ul>
+      <li><a href="../home page/index.html" target="_parent"><span></span>首页</a></li>
+      <li><a href="../scenic spot/index.html" ><span></span>景点</a></li>
+      <li><a href="#"  class="current"><span></span>酒店</a></li>
+      <li><a href="../travel tips/index.html" ><span></span>旅行攻略</a></li>
+       <li><a href="../members/index.html"><span></span>会员中心</a></li>
+      <li><a href="../contact us/index.html"><span></span>联系我们</a></li>
+    </ul>
+  </div>
+</div>
+
+<table width="1100" border="0" cellspacing="0" cellpadding="0" align="center">
+  <tr>
+    <td width="350" valign="top"><table width="350" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+        <td><h3>当前位置：>>酒店</h3></td>
+      </tr>
+      
+   <tr>
+   <td width="150" height="0" >
+  <ul1 id="nav">
+ <h2>搜索国内酒店</h2>
+ <form>
+ <p>
+ <table width="100%" border="0" cellspacing="0" cellpadding="0" background="images/表格背景.jpg">
+  <tbody>
+    <tr><th scope="col">&nbsp;</th></tr>
+    <tr><td>&nbsp;</td></tr>
+  </tbody>
+</table>
+ <input type="checkbox"name="like"value="设计师酒店" >设计师酒店
+ <input type="checkbox"name="like"value="青年旅舍" >青年旅舍
+ <input type="checkbox"name="like"value="特色民宿" >特色民宿
+ <input type="checkbox"name="like"value="海岛酒店" >海岛酒店
+ </p></br>
+ <p>
+ 目 的 地：&nbsp;&nbsp;&nbsp;<input type="space" >
+</p></br>
+ <p>
+入住日期：&nbsp;&nbsp;<input type="date" min="2017-10-1" max="2019-12-31" > 
+</p></br>
+ <p>
+退房日期：&nbsp;&nbsp;<input type="date" min="2017-10-1" max="2019-12-31" >
+ </p></br>
+ <p>
+ <div align="left">酒店价格：&nbsp;</div>
+   <div align="left">
+     <select name="price">
+   </div>
+ 
+          <div align="left">
+            <option value="0-500元">0-500元</option>
+            <option value="500-1000元">500-1000元</option>
+            <option value="1000-2000元">1000-2000元</option>
+            <option value="2000-3000元">2000-3000元</option>
+            <option value="3000元以上">3000元以上</option>
+          </div>
+          </p></br>
+<p>
+关键词：<input type="keyword" placeholder="选填（酒店名/地标/商圈）等">
+ </p></br>
+<p>
+  <div align="left"></div>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="search" name="search" value="搜索"/>
+  <div align="left"></div>
+
+ </br>
+ <table width="100%" border="0" cellspacing="0" cellpadding="0" background="images/表格背景.jpg">
+  <tbody>
+    <tr><th scope="col">&nbsp;</th></tr>
+    <tr><td>&nbsp;</td></tr>
+  </tbody>
+</table>
+ </form>
+ </body>
+ </html>
+ 
+      <tr>
+        <td height="35">&nbsp;</td>
+      </tr>
+        <tr valign="middle">
+           <td height="170"><img src="images/左1.png"width="320" height="170"/></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+	    <tr valign="middle">
+           <td height="170"><img src="images/广告0.jpg"width="320" height="170"/></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+        <tr>
+          <td align="left"><h2 class="semo">促销特惠</h2></td>
+        </tr>
+		  
+           <td height="70"><img src="images/广告2.jpg"width="320" height="60"/></td>
+      </tr>
+         <tr valign="middle">
+           <td height="70"><img src="images/广告3.jpg"width="320" height="60"/></td>
+      </tr>
+	    <tr valign="middle">
+           <td height="70"><img src="images/广告4.jpg"width="320" height="60"/></td>
+      </tr>
+	    <tr valign="middle">
+           <td height="70"><img src="images/广告5.jpg" width="320" height="60"/></td>
+      </tr>
+	    <tr valign="middle">
+           <td height="70"><img src="images/广告6.jpg"width="320" height="60"/></td>
+      </tr>
+	   <tr valign="middle">
+           <td height="70"><img src="images/广告7.png"width="320" height="60"/></td>
+      </tr>
+	   <tr valign="middle">
+           <td height="70"><img src="images/广告8.png"width="320" height="60"/></td>
+      </tr>
+        <tr>
+        <td height="20">&nbsp;</td>
+        </tr>
+         <tr>
+          <td align="left"><h2 class="semo">酒店热评</h2></td>
+        </tr>
+        
+        <tr align="left" valign="middle">
+           <td height="170" valign="bottom"><img src="images/点评.jpeg" width="305" height="180" /></td>
+      </tr>
+     
+         <tr>
+        <td height="5"><h4 class="semo" style="margin:5px 0 0 0"><p><a href="#" style="color:dodgerblue;">安琪la</a>点评了  懒墅 <a href="#" style="color:orange;">远方 每个人都有着不同的理解;旅行</a></p><p><a href="#" style="color:orange;">每个人都有着梦想的地方;相聚 来自远方的人们邂逅相识</a></h3></td>
+      </tr>
+         <tr>
+        <td height="5"><h4 class="semo" style="margin:10px 0 0 0"><p><a href="#" style="color:dodgerblue;">九亿少女的梦</a>点评了 安妮的仙境 <a href="#" style="color:orange;">一个完完全全出于为了</a></p><p><a href="#" style="color:orange;">满足自己少女心而设计的房子。</a></h3></td>
+      </tr>
+      <tr>
+        <td height="5"><h4 class="semo" style="margin:10px 0 0 0"><p><a href="#" style="color:dodgerblue;">兜里有糖</a>点评了 香格里拉大酒店 <a href="#" style="color:orange;">酒店环境幽雅，交通方</a></p><p><a href="#" style="color:orange;">便，很适合出游，商务出差</a></h3></td>
+      </tr>
+      <tr>
+        <td height="5"><h4 class="semo" style="margin:10px 0 0 0"><p><a href="#" style="color:dodgerblue;">孙骁骁</a>点评了 lulu的家 <a href="#" style="color:orange;">三个房间更是不同的风格，每入</a></p><p><a href="#" style="color:orange;">通方一换的床品温馨又舒适。</a></h3></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+      
+       <tr align="left" valign="middle">
+           <td height="170" valign="bottom" ><img src="images/左下.jpg" width="240" height="260" /></td>
+      </tr>
+  
+      
+      
+    </table></td>
+    <td height="100" align="center" valign="middle"><table width="840" valign="top" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+       <div class="banner">
+		<div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="images/右上6.jpeg" width="800" height="500"/></div>
+            <div class="swiper-slide"><img src="images/右上7.jpeg" width="800" height="500" /></div>
+            <div class="swiper-slide"><img src="images/右上3.jpeg" width="800" height="500" /></div>
+            <div class="swiper-slide"><img src="images/右上8.jpeg" width="800" height="500" /></div>
+            <div class="swiper-slide"><img src="images/右上9.jpeg" width="800" height="500" /></div>
+        </div>
+    </div>
+	</div>
+ </tr>
+<tr>
+  <td align="left"><h2 class="semo"><a href="#" class="novel">&nbsp;超值特卖酒店</h2></td></tr>
+  <tr>
+    <td><div align="right"><a href="hotel-page/index.html"><img src="images/热卖1.png" width="270" height="300"   /></a></div></td>
+   <td><div align="center"><a href="../scenic spot/index4.html"><img src="images/热卖2.png" width="270" height="300"  /></a></div></td>
+   <td><div align="center"><a href="../scenic spot/index4.html"><img src="images/热卖3.png"  width="270" height="300"/></a></div></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+ <tr>
+<td align="left"><h2 class="semo"><a href="#" class="novel">&nbsp;设计师酒店</a></h2></td>
+      </tr>
+	  <tr>
+    <td width="270"><div align="right"><a href="hotel-page/index 2.html"><img src="images/设计师酒店1.jpg" width="270" height="210" /></a></div></td>
+	<td width="270"><div align="right"><a href="../scenic spot/index4.html"><img src="images/设计师酒店2.jpg" width="270" height="210" /></a></div></td>
+	<td width="270"><div align="right"><a href="../scenic spot/index4.html"><img src="images/设计师酒店3.jpg"width="270" height="210" /></a></div></td></br>
+  </tr>
+   <tr>
+        <td height="20" align="center"><div class="xingfu">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;冬季海岛促销  ¥190起</div></td>
+       <td height="40" align="center"><div class="xingfu">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;优惠促销   ¥259起</td>
+        <td height="40" align="center" ><div class="xingfu">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;优选低价  ¥328起</td>
+      </tr> 
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+<tr>
+<td align="left"><h2 class="semo"><a href="#" class="novel">&nbsp;特色民宿</a></h2></td>
+      </tr>
+	  <tr>
+    <td width="270"><div align="right"><a href="hotel-page/index3.html"><img src="images/民宿1.jpeg" width="270" height="210" /></a></div></td>
+	<td width="270"><div align="right"><a href="../scenic spot/index4.html"><img src="images/民宿4.jpeg" width="270" height="210" /></a></div></td>
+	<td width="270"><div align="right"><a href="../scenic spot/index4.html"><img src="images/民宿3.jpeg"width="270" height="210" /></a></div></td></br>
+  </tr>
+  <tr>
+        <td height="20" align="center"><div class="xingfu">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;冬季海岛促销  ¥190起</div></td>
+       <td height="40" align="center"><div class="xingfu">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;优惠促销   ¥259起</td>
+        <td height="40" align="center" ><div class="xingfu">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;优选低价  ¥328起</td>
+      </tr> 
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+ <td align="left"><h2 class="semo"><a href="#" class="novel">&nbsp;青年旅舍</a></h2></td>
+  </tr>
+	  <tr>
+	 <td width="270"><div align="right"><a href="hotel-page/index1.html"><img src="images/青旅1.jpg"width="270" height="210" /></a></div></td>  
+  <td width="270"><div align="right"><a href="../scenic spot/index4.html"><img src="images/旅舍1.jpeg"width="270" height="210" /></a></div></td>  
+  <td width="270"><div align="right"><a href="../scenic spot/index4.html"><img src="images/青旅3.jpeg"width="270" height="210" /></a></div></td> 
+  </tr>
+ <tr>
+        <td height="20" align="center"><div class="xingfu">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;冬季海岛促销  ¥190起</div></td>
+       <td height="40" align="center"><div class="xingfu">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;优惠促销   ¥259起</td>
+        <td height="40" align="center" ><div class="xingfu">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;优选低价  ¥328起</td>
+      </tr> 
+  <tr>
+  <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+<td align="left"><h2 class="semo"><a href="#" class="novel">&nbsp;海岛酒店</a></h2></td>
+      </tr>
+   <td width="270"><div align="right"><a href="hotel-page/index4.html"><img src="images/酒店1.jpeg"width="270" height="210" /></a></div></td>  
+  <td width="270"><div align="right"><a href="../scenic spot/index4.html"><img src="images/海岛酒店2.jpg"width="270" height="210" /></a></div></td>  
+  <td width="270"><div align="right"><a href="../scenic spot/index4.html"><img src="images/海岛酒店3.jpg"width="270" height="210" /></a></div></td> 
+  </tr>
+  <tr>
+        <td height="20" align="center"><div class="xingfu">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;冬季海岛促销  ¥190起</div></td>
+       <td height="40" align="center"><div class="xingfu">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;优惠促销   ¥259起</td>
+        <td height="40" align="center" ><div class="xingfu">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;优选低价  ¥328起</td>
+      </tr> 
+  <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr><tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+ 
+</table>
+      
+    </table></td>
+  </tr>
+</table>
+
+<div id="templatemo_footer_wrapper">
+  <div id="templatemo_footer"> Copyright © 2017 <a href="../酒店/subpage.html">嘻游网工作室</a> | 
+    Designed by AMAZING 团队</div>
+<div class="totop">
+	 	<a href="#"><h4 class="xuanfu">回到顶部</h4></a>
+	 </div>
+
+
+
+
+
+</body>
+  <!-- Swiper JS -->
+    <script src="swiper.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+     var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        paginationClickable: true,
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: 2500,
+        autoplayDisableOnInteraction: false
+    });
+    </script>
+
+</html>
+
+

@@ -1,0 +1,48 @@
+ul1 {
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	width:120px;
+	border-bottom:1px solid  #999;
+	font-size:12px;
+	text-align:left;
+}
+ul1 li1 {
+	position:relative;
+}
+li1 ul1 {
+	position:absolute;
+	left:219px;
+	top:0;
+	display:none;
+	z-index:9999;
+}
+ul1 li1 a {
+	width:208px;
+	display:block;
+	text-decoration:none;
+	color:#666666;
+	background:#fff;
+	padding:5px;
+	border:1px solid #ccc;
+	border-bottom:0px;
+	text-decoration: none;
+}
+ul1 li1 a:hover {
+	background-color:#69F;
+	color:#FFF;
+	text-decoration: none;
+}
+/*解决ul在IE下显示不正确的问题*/
+* html ul1 li1 {
+	float:left;
+	height:1%;
+}
+* html ul1 li1 a {
+	height:1%;
+}
+/* end */
+li1:hover ul1, li1.over ul1 {
+	display:block;
+}/* CSS Document */
+
